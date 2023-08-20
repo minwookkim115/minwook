@@ -1,0 +1,57 @@
+# 0712 / 0713
+
+URL모음
+- 마크다운 가이드
+    -[https://www.markdownguide.org/basic-syntax]
+- 싸피 공용 문서
+    -[https://abit.ly/pb-document]
+- gitignore 설정 서비스
+    -[https://www.toptal.com/developers/gitignore]
+1. Markdown
+- 텍스트로 문서작성
+
+    ```python
+    print('hello')
+    ```
+    ` * 3 을 이용해 파이썬 함수 정리 가능
+
+    [google](https://google.com/)
+    [url]를 이용해 url 표현가능
+
+    ![이미지](data:image/jpeg;base64,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)  
+    ![url]를 이용해 이미지 표현가능
+
+    **굵게** ** **
+    
+    *기울임* * *
+    
+    ~~취소선~~ ~~ ~~
+
+
+2. Git
+- 주의사항
+    - git 로컬 저장소 내에 또 다른 git 로컬 저장소 만들면 안됨
+
+- CLI 문법
+    - . 현재 디렉토리 / .. 상위 디렉토리
+    - touch : 파일생성
+    - mkdir : 새 디렉토리 생성
+    - ls : 현재 작업 중인 디렉토리 내부 출력
+    - cd : 디렉토리 변경
+    
+- git 동작
+    - git init : 로컬 저장소 설정
+    - git add : Working Directory => Staging Area
+    - git commit : Staging Area => Repository
+        - ex) git commit -m "메세지 설정"
+    - git push origin master(gitlab) : 로컬 저장소 => 원격 저장소
+        - github : git push -u origin master
+        - origin / master => 임의의 이름
+    - git status : 로컬 저장소 파일보기
+    - git log : commit 한 파일들 보기
+    - git remote add origin 'url' : 로컬 저장소에 원격 저장소 주소 추가
+    - git clone 'url' : 처음 한번 원격 저장소에서 파일 가져오기
+    - git pull origin master : 원격 저장소의 변경사항 가져오기
+- gitignore
+    - 파일을 원격저장소에 저장할 때 변동사항중 원하지 않는 파일은 원격저장소에 저장하지 않는 방법
+    - 파일안에 .gitignore 생성 후 원하는 파일 작성
