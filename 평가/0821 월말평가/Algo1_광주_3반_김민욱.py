@@ -1,3 +1,6 @@
+import sys
+sys.stdin = open("algo1_sample_in.txt")
+
 dr = [-1, 1, 0, 0]
 dc = [0, 0, -1, 1]
 
