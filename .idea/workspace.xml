@@ -2,16 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e32f1b21-c39b-4545-b4bb-d622dacb4539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/0819.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/16691_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/16692_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/Tree_class_teacher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/Tree_live_teacher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/Tree_teacher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/실습_subtree_16691_P.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/실습_이진탐색_16692_F.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/트리순회_teacher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/0821.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/16691_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/16692_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/Tree_class_teacher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/Tree_live_teacher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/Tree_teacher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/실습_subtree_16691_P.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/실습_이진탐색_16692_F.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/트리순회_teacher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2/0821_과제_live_teacher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2/0822.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2/BST_teacher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/0819.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/16691_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/16692_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/Tree_class_teacher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/Tree_live_teacher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/Tree_teacher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/실습_subtree_16691_P.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/실습_이진탐색_16692_F.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/트리순회_teacher.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +54,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Python.Tree_teacher">
-    <configuration name="Tree_class_teacher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.BST_teacher">
+    <configuration name="BST_teacher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="minwook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,11 +63,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/수업(알고리즘)/0819_Tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/Tree_class_teacher.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2/BST_teacher.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BST_teacher" />
         <item itemvalue="Python.Tree_teacher" />
         <item itemvalue="Python.트리순회_teacher" />
         <item itemvalue="Python.실습_subtree_16691_P" />
         <item itemvalue="Python.Tree_live_teacher" />
-        <item itemvalue="Python.Tree_class_teacher" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +191,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
