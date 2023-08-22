@@ -57,7 +57,7 @@ def postorder(t):
 
 # preorder(1)
 # print()
-inorder(4)
-print()
-# postorder(1)
+# inorder(4)
 # print()
+postorder(1)
+print()
