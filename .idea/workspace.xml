@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e32f1b21-c39b-4545-b4bb-d622dacb4539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/과제_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/과제_중위순회_teacher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2/최대힙_teacher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2/최소힙_teacher.py" afterDir="false" />
+    <list default="true" id="efcdb6ed-81e2-4ba2-9a31-e0406242855f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2/1232_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2/과제_사칙연산_1232_F.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/실습_이진탐색_16692_F.py" beforeDir="false" afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/실습_이진탐색_16692_F.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/과제_중위순회_teacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/과제_중위순회_teacher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/트리순회_teacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/트리순회_teacher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,15 +28,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="2UGokYYlH8EXL98wcrzRLxTksRX" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2UL15xAVZJKX2Ln7dpwXcKYj2i3" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -40,14 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
-  <component name="RunManager" selected="Python.과제_중위순회_teacher">
-    <configuration name="BST_teacher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.과제_사칙연산_1232_F">
+    <configuration name="과제_사칙연산_1232_F" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="minwook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,28 +60,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2/BST_teacher.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Tree_teacher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="minwook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/수업(알고리즘)/0819_Tree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/수업(알고리즘)/0819_Tree/Tree_teacher.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2/과제_사칙연산_1232_F.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="최대힙_teacher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="트리순회_teacher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="minwook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,32 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/수업(알고리즘)/0821_Tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2/최대힙_teacher.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="최소힙_teacher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="minwook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2/최소힙_teacher.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/트리순회_teacher.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,38 +113,35 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.과제_사칙연산_1232_F" />
+        <item itemvalue="Python.트리순회_teacher" />
         <item itemvalue="Python.과제_중위순회_teacher" />
-        <item itemvalue="Python.최대힙_teacher" />
-        <item itemvalue="Python.최소힙_teacher" />
-        <item itemvalue="Python.BST_teacher" />
-        <item itemvalue="Python.Tree_teacher" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e32f1b21-c39b-4545-b4bb-d622dacb4539" name="Default Changelist" comment="" />
-      <created>1692575421759</created>
+      <changelist id="efcdb6ed-81e2-4ba2-9a31-e0406242855f" name="Changes" comment="" />
+      <created>1692703866880</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1692575421759</updated>
+      <updated>1692703866880</updated>
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/수업(알고리즘)/0821_Tree/과제_중위순회_teacher.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
