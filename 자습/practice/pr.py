@@ -1,36 +1,66 @@
 import sys
+
 sys.stdin = open("input.txt", "r")
-#    상  하  좌  우
-dr = [-1, 1, 0, 0]
-dc = [0, 0, -1, 1]
 
-T = int(input())
+maching = {"0001101": 0, "0011001": 1, "0010011": 2,
+           "0111101": 3, "0100011": 4, "0110001": 5,
+           "0101111": 6, "0111011": 7, "0110111": 8, "0001011": 9}
 
-for tc in range(1, T + 1):
-    N, M = map(int, input().split())
-    balloon = [list(map(int, input().split())) for _ in range(N)]
 
-    # 최대값
-    max_sum = 0
-    # 풍선 돌면서
-    for r in range(N):
-        for c in range(M):
+def maching_result(init):
+    for j in maching:
+        for i in range(len(mouem)):
+            if init[i] == j:
+                init[i] = maching[j]
+    return init
 
-            # 각 지점에서의 합
-            flower_sum = balloon[r][c]
-            # 상하좌우
-            for k in range(4):
-                # 터지는 풍선만큼 더
-                for d in range(1, balloon[r][c] + 1):
-                    nr = r + dr[k] * d
-                    nc = c + dc[k] * d
-                    # 범위안에 있으면
-                    if 0 <= nr < N and 0 <= nc < M:
-                        # 각 지점에서의 범위에 있는 상하좌우 합
-                        flower_sum += balloon[nr][nc]
 
-            # 최대값에 입력
-            if max_sum < flower_sum:
-                max_sum = flower_sum
+t = int(input())
+for tc in range(1, t + 1):
+    n, m = map(int, input().split())
+    pass_cord = [list(map(int, input())) for _ in range(n)]
 
-    print(f"#{tc} {max_sum}")
+    # print(n, m)
+    sr = 0
+    sc = 0
+    for r in range(n):
+        for c in range(m - 1, -1, -1):
+            if pass_cord[r][c] == 1:
+                sr, sc = r, c
+                break
+    # print(sr, sc)
+
+    pass_list = pass_cord[sr][sc - 55:sc + 1]
+    # print(pass_list)
+    joy = ""
+    for i in range(len(pass_list)):
+        c = pass_list[i]
+        joy += str(c)
+
+    # print(joy)
+
+    l_pass = len(pass_list)
+    mouem = []
+    for i in range(0, l_pass, 7):
+        pass_word = joy[i:i + 7]
+        mouem.append(pass_word)
+    # print(mouem)
+    a = maching_result(mouem)
+    print(a)
+
+    jjaksum = 0
+    holsum = 0
+    for i in range(len(a)):
+        if i % 2 == 0:
+            holsum += a[i]
+        else:
+            jjaksum += a[i]
+
+    print(holsum, jjaksum)
+    answer = 0
+    if (holsum * 3 + jjaksum) % 10 == 0:
+        answer = holsum + jjaksum
+    else:
+        answer = 0
+
+    print(f"#{tc} {answer}")
