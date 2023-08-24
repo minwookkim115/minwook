@@ -8,13 +8,7 @@
     <list default="true" id="e32f1b21-c39b-4545-b4bb-d622dacb4539" name="Default Changelist" comment="" />
 =======
     <list default="true" id="efcdb6ed-81e2-4ba2-9a31-e0406242855f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2/1232_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수업(알고리즘)/0822_Tree2/과제_사칙연산_1232_F.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/과제_중위순회_teacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/과제_중위순회_teacher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/트리순회_teacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/수업(알고리즘)/0821_Tree/트리순회_teacher.py" afterDir="false" />
     </list>
 >>>>>>> d71eff2a50c4f0e71c2b67bc62b5e9e05e874b1b
     <option name="SHOW_DIALOG" value="false" />
@@ -32,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2UL15xAVZJKX2Ln7dpwXcKYj2i3" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.과제_사칙연산_1232_F">
     <configuration name="과제_사칙연산_1232_F" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="minwook" />

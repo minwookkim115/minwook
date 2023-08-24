@@ -17,6 +17,7 @@ for tc in range(1, T + 1):
         for c in range(M - 1, -1, -1):
             # 1을 만나면
             if arr[r][c] == 1:
+                sr, sc = r, c
                 # 56개 가져오고
                 for i in range(56):
                     cord += str(arr[r][c - i])
