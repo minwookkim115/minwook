@@ -45,7 +45,7 @@ for tc in range(1, T + 1):
         # 변환표 작성
         node[p] = info[1]
 
-        print(info)
+        # print(info)
 
     # 중위순회 하면서 문자열 출력
     result = ""
