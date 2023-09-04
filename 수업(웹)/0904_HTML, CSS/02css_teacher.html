@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /* 자손 결합자 */
+      /* parent1 의 모든 span이 자손 */
+      .parent1 .child2 {
+        color: red;
+      }
+    
+      /* 자식 결합자 */
+      /* parent1의 모든 자식만 */
+      .parent1 > span{
+        color: blue;
+      }
+    </style>
+</head>
+<body>
+  <div class="parent1">
+    <span class="child1">span1</span>
+    <span class="child1">span1</span>
+    <span class="child1">span1</span>
+    <div class="parent2">
+      <span class="child2">span1</span>
+      <span class="child2">span1</span>
+      <span class="child2">span1</span>
+    </div>
+  </div>
+</body>
+</html>
