@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX BOX</title>
+    <style>
+      .container {
+        height: 900px;
+        border: 2px solid black;
+        display: flex;
+        /* 정렬방법 */
+        /* flex-direction: row-reverse; */
+        
+        /* 꽉차면 넘어갈지 */
+        flex-wrap: wrap;
+
+        /* 주축 정렬 */
+        /* justify-content: center; */
+
+        /* 교차축 정렬 */
+        /* 줄로 나눠지지만 한줄로 침 */
+        /* align-content: flex-end; */
+
+        /* 교차축 정렬 */
+        /* content와 다른점 */
+        /* 두줄로 나눠져서 각각 해당 받음 */
+        /* align-items: center; */
+      }
+      .post {
+        background-color: gray;
+        border: 2px solid black;
+        margin: 0.5rem;
+        padding: 0.5rem;
+      }
+      .item1 {
+        /* 부모가 아닌 자기자신을 정렬 */
+        align-self: center;
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="post item1">
+      <h2>Post Title 1</h2>
+      <p>Post Content 1</p>
+    </div>
+    <div class="post item2">
+        <h2>Post Title 2</h2>
+        <p>Post Content 2</p>
+    </div>
+    <div class="post item3">
+      <h2>Post Title 3</h2>
+      <p>Post Content 3</p>
+    </div>
+    <div class="post item4">
+      <h2>Post Title 4</h2>
+      <p>Post Content 4</p>
+    </div>
+  </div>
+</body>
+</html>
