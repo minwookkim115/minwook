@@ -32,6 +32,9 @@ def swap(cnt, c):
 
 T = int(input())
 for tc in range(1, T + 1):
+<<<<<<< HEAD
+    num, c = map(int, input().split())
+=======
     S, N = input().split()
     S = list(S)
     N = int(N)
@@ -41,3 +44,4 @@ for tc in range(1, T + 1):
     swap(0, check)
 
     print(f"#{tc} {max_v}")
+>>>>>>> 48beb20a8605c14a15f8e56ad4b07d4274b49bdd

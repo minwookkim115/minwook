@@ -1,5 +1,15 @@
 numbers = ['1', '2', '3', '4', '5']
 
+max1 = max(numbers)
+max2 = 0
+for i in range(len(numbers)):
+    if numbers[i] == max(numbers):
+        numbers.pop(i)
+        max2 = max(numbers)
+        numbers.insert(i, max1)
+print(max1, max2)
+print(numbers)
+
 # n = len(numbers)
 #
 # def perm(i, selected):
