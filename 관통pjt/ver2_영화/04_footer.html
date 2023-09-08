@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <style>
+    .logo {
+      width: 80px;
+      height: 30px;
+    }
+
+    .nav-item1 {
+      margin-right: 10px;
+    }
+    
+    .community {
+      display: flex;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+    }
+
+    .pag {
+      display: flex;
+      justify-content: center;
+    }
+
+    @media (min-width: 992px) {
+      .section {
+      display: none;
+      }
+    }
+
+    @media (max-width: 992px) {
+      .section2 {
+        display: none;
+      }
+    }
+
+    .footer {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      position: fixed;
+      bottom: 0;
+      justify-content: center;
+      align-items: center;
+      background-color: lightgray;
+      font-size: 10px
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png" alt="not found"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 text-end">
+          <li class="nav-item1">
+            <a class="nav-link active text-white" aria-current="page" href="02_home.html">Home</a>
+          </li>
+          <li class="nav-item1">
+            <a class="nav-link text-white" href="03_community.html">Community</a>
+          </li>
+          <li class="nav-item">
+            <button
+            type="button"
+            class="btn btn-dark"
+            data-bs-toggle="modal"
+            data-bs-target="#loginModal"
+          >
+            Login
+          </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div
+    class="modal fade"
+    id="loginModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">LOGIN</h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="idInput" class="form-label">ID</label>
+            <input
+              type="email"
+              class="form-control"
+              id="idInput"
+              placeholder=""
+              aria-describedby="IdHelpBlock"
+            />
+            <div id="IdHelpBlock" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleFormControlInput1"
+            />
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+          <button type="button" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="community">
+    Community
+  </div>
+  <div class="container">
+    <div class="row">
+      <Aside class="aside col-lg-2">
+        <ul class="list-group">
+          <li class="list-group-item">Box Office</li>
+          <li class="list-group-item">Movies</li>
+          <li class="list-group-item">Genres</li>
+          <li class="list-group-item">Actors</li>
+        </ul>
+      </Aside>
+      <Section class="section">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h4>Best Movie Ever</h4>
+            <h5>Great Movie Title</h5>
+            <h6>1 minutes ago</h6>
+          </li>
+          <li class="list-group-item">
+            <h4>Movie Test</h4>
+            <h5>Great Movie Title</h5>
+            <h6>1 minutes ago</h6>
+          </li>
+          <li class="list-group-item">
+            <h4>Movie Test</h4>
+            <h5>Great Movie Title</h5>
+            <h6>1 minutes ago</h6>
+          </li>
+        </ul>
+      </Section>
+      <Section2 class="section2 col-lg-10">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">영화 제목</th>
+              <th scope="col">글 제목</th>
+              <th scope="col">작성자</th>
+              <th scope="col">작성시간</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Great Movie title</th>
+              <td>Best Movie Ever</td>
+              <td>user</td>
+              <td>1 minutes ago</td>
+            </tr>
+            <tr>
+              <th scope="row">Great Movie title</th>
+              <td>Movie Test</td>
+              <td>user</td>
+              <td>1 minutes ago</td>
+            </tr>
+            <tr>
+              <th scope="row">Great Movie title</th>
+              <td>Movie Test</td>
+              <td>user</td>
+              <td>1 minutes ago</td>
+            </tr>
+            <tr>
+              <th scope="row">Great Movie title</th>
+              <td>Movie Test</td>
+              <td>user</td>
+              <td>1 minutes ago</td>
+            </tr>
+            <tr>
+              <th scope="row">Great Movie title</th>
+              <td>Movie Test</td>
+              <td>user</td>
+              <td>1 minutes ago</td>
+            </tr>
+            <tr>
+              <th scope="row">Great Movie title</th>
+              <td>Movie Test</td>
+              <td>user</td>
+              <td>1 minutes ago</td>
+            </tr>
+            <tr>
+              <th scope="row">Great Movie title</th>
+              <td>Movie Test</td>
+              <td>user</td>
+              <td>1 minutes ago</td>
+            </tr>
+            <tr>
+              <th scope="row">Great Movie title</th>
+              <td>Movie Test</td>
+              <td>user</td>
+              <td>1 minutes ago</td>
+            </tr>
+            <tr>
+              <th scope="row">Great Movie title</th>
+              <td>Movie Test</td>
+              <td>user</td>
+              <td>1 minutes ago</td>
+            </tr>
+          </tbody>
+        </table>
+      </Section2>
+      </div>
+      <div class="pag">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <footer class="footer">
+      Web-bootstrap PJT, by 김민욱
+    </footer>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>
