@@ -17,9 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from articles import views
+from menus import views as mv
 #       앱
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('articles/', views.index)
+    path('articles/', views.index),
+    path("menus/", mv.menu)
 ]
