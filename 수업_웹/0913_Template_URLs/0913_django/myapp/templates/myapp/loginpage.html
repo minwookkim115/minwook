@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <form action="{% url 'myapp:login' %}">
+      <label for="id">ID</label>
+      <input type="text" name="id" id="id">
+      <hr>
+      <label for="password">PASSWORD</label>
+      <input type="password" name="password" id="password">
+      <hr>
+      <input type="submit" value="login">
+    </form>
+  </div>
+</body>
+</html>

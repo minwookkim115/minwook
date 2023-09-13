@@ -1,0 +1,11 @@
+{% extends "articles/base.html" %}
+
+{% block content %}
+  <h1>fake naver</h1>
+  {% comment %} action = 어디로 보낼 것인가 / method = get방식(url에 노출됨) {% endcomment %}
+  <form action="https://search.naver.com/search.naver" method="GET">
+    <label for="message">검색어:</label>
+    <input type="text" name="query" id="message">
+    <input type="submit"> {% comment %} submit 누르면 서버로 전송 {% endcomment %}
+  </form>
+{% endblock content %}
