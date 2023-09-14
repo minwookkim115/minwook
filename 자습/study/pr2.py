@@ -1,6 +1,8 @@
-T = int(input())
+S = input()
+abc = 'abcdefghijklmnopqrstuvwxyz'
 
-for tc in range(1, T + 1):
-    al = input()
-    n = len(al)
-    print(al[0], al[n-1])
+for i in abc:
+    if i in S:
+        print(S.index(i), end=' ')
+    else:
+        print(-1, end=' ')
