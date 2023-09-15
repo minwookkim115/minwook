@@ -1,14 +1,20 @@
-N, M = map(int, input().split())
+S = input()
 
-num_l = []
-for i in range(1, N + 1):
-    num_l.append(i)
+al_l = []
+for i in range(97, 123):
+    al_l.append(chr(i))
+print(al_l)
 
-for _ in range(M):
-    s, e = map(int, input().split())
-    numl = num_l[s-1:e]
-    numl.reverse()
-    num_l[s-1:e] = numl
+answer_l = [-1] * 26
 
-for i in range(N):
-    print(num_l[i], end=" ")
+print(answer_l)
+
+for i in range(len(S)):
+    print(S[i])
+    for j in range(len(al_l)):
+        if S[i] == al_l[j]:
+            if answer_l[j] == -1:
+                answer_l[j] = i
+                break
+
+print(*answer_l)
