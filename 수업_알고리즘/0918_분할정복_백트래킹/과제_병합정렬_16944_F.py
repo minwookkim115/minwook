@@ -6,7 +6,7 @@ def merge(left, right):
     result = []  # 왼쪽과 오른쪽을 합친 결과
     global count
 
-    i, j = 0, 0
+    i, j = 0, len(right) - 1
     # i => 왼쪽 리스트에서 원소를 꺼낼 위치
     # j => 오른쪽 리스트에서 원소를 꺼낼 위치
     while True:
