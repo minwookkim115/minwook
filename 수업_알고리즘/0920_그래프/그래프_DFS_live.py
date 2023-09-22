@@ -31,6 +31,7 @@ graph_dict = {
     '4': [1, 3]
 }
 
+
 # DFS
 # stack 버전
 def dfs_stack(start):
@@ -47,9 +48,8 @@ def dfs_stack(start):
         visited.append(now)
 
         # 갈 수 있는 곳들을 stack에 추가
-        # for next in range(5): => 큰번호부터 진행
-        # for next in range(4, -1, -1): => 작은번호부터 진행
-        for to in range(len(graph[now]) - 1, -1, -1):
+        # for to in range(len(graph[now])): # => 큰 번호부터 진행
+        for to in range(len(graph[now]) - 1, -1, -1):  # => 작은 번호부터 진행
             # 연결이 안되어 있다면 continue
             # 인접 리스트를 사용하게 되면 연결 안돼있는걸 판단할 필요 없다.
             # if graph[now][next] == 0:

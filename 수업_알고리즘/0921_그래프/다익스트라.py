@@ -50,6 +50,8 @@ for _ in range(E):
     s, e, w = map(int, input().split())
     adjl[s].append((e, w))
 
+print(adjl)
+
 # D[i] = 시작지점 에서 i 까지 가는데 걸리는 최소 비용
 D = [INF] * V
 

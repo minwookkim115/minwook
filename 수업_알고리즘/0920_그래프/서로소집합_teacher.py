@@ -30,8 +30,11 @@ def union(x, y):
 # 집합 초기화
 for i in range(1, 7):
     make_set(i)
+print(p)
 
 union(1, 3)
+print(p)
 union(2, 3)
+print(p)
 union(5, 6)
 print(p)
