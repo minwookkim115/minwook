@@ -11,6 +11,13 @@ def max_v(row, value):
             max_property = value
         return
 
+    # 현재 값이 맥스보다 작으면
+    # 곱해주는 값이 1보다 작으니까
+    # 무조건 작을 수 밖에 없기 때문에
+    # return
+    if value <= max_property:
+        return
+
     for i in range(N):
         if visited[i] == 0:
             visited[i] = 1
@@ -26,4 +33,4 @@ for tc in range(1, T + 1):
     max_property = 0
     max_v(0, 1)
 
-    print(f"#{tc} {max_property * 100}")
+    print(f"#{tc} {max_property * 100:.6f}")
