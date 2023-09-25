@@ -17,14 +17,14 @@ while i < len(string):
             i += 1
 
     elif string[i] == "d":
-        if i < len(string) - 2:
-            if string[i + 1] == "z" and string[i + 2] == "=":
+        if i < len(string) - 1:
+            if string[i + 1] == "-":
                 count += 1
-                i += 3
-            elif i < len(string) - 1:
-                if string[i + 1] == "-":
+                i += 2
+            elif i < len(string) - 2:
+                if string[i + 1] == "z" and string[i + 2] == "=":
                     count += 1
-                    i += 2
+                    i += 3
                 else:
                     count += 1
                     i += 1
