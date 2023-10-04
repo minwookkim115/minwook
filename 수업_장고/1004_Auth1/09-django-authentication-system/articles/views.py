@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
 from .models import Article
 from .forms import ArticleForm
 
@@ -19,8 +20,13 @@ def detail(request, pk):
     }
     return render(request, 'articles/detail.html', context)
 
-
+# 로그인한 사람만 create를 실행할 수 있음
+@login_required
 def create(request):
+    # 데코레이터 안쓰면
+    # if request.user.is_authenticated:
+    #     return redirect('accounts:login')
+    
     if request.method == 'POST':
         form = ArticleForm(request.POST)
         if form.is_valid():
