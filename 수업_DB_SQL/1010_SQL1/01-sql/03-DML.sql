@@ -59,7 +59,6 @@ WHERE id IN (
 
 -- 심화(서브쿼리)
 -- 제일 최근에 생성된 게시글을 골라서 하나만 삭제
-
 DELETE FROM
   articles
 WHERE
@@ -69,3 +68,4 @@ WHERE
     ORDER BY createdAT DESC
     LIMIT 1
 );
+
