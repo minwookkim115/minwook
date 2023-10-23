@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div></div>
+  <script>
+    // 부모 요소 선택
+    const divTag = document.querySelector('div')
+
+    // 생성, 일단 h1태그에 제목을 만들고
+    const h1Tag = document.createElement('h1')
+    h1Tag.textContent = '제목'
+    console.log(h1Tag)
+
+    // 추가, 디브 태그에 자식요소로 넣어버림
+    divTag.appendChild(h1Tag)
+    console.log(divTag)
+
+    // 삭제, 지워버림
+    divTag.removeChild(h1Tag)
+  </script>
+</body>
+
+</html>
