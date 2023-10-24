@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // while
+    // const로 하면 0만 나옴
+    // 재할당 안되니까
+    let i = 0
+    while (i < 6) {
+      console.log(i)
+      i += 1
+    }
+
+
+    // for
+    for (let i = 0; i < 6; i++) {
+      console.log(i)
+    }
+
+
+    // for...in
+    const fruits = {
+      a: 'apple',
+      b: 'banana'
+    }
+
+    for (const property in fruits) {
+      console.log(property)
+      console.log(fruits[property])
+    }
+
+
+    // for...of
+    const numbers = [0, 1, 2, 3]
+
+    for (const number of numbers) {
+      console.log(number) // 0, 1, 2, 3
+    }
+
+    const numbers2 = ['a', 'b', 'c', 'd']
+    
+    for (const number of numbers2) {
+      console.log(number) // a, b , c, d
+    }
+
+    // 인덱스 순서가 아니라 열거된 속성값을 출력했을 뿐이유
+    for (const number in numbers2) {
+      console.log(number) // 0, 1, 2, 3
+    }
+  </script>
+</body>
+
+</html>
