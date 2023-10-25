@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    const names = ['Alice', 'Bella', 'Cathy',]
+
+    // 일반 함수
+    names.forEach(function (item, index, array) {
+      console.log(`${item} / ${index} / ${array}`)
+    })
+    // Alice / 0 / Alice,Bella,Cathy
+    // Bella / 1 / Alice,Bella,Cathy
+    // Cathy / 2 / Alice,Bella,Cathy
+
+    // 화살표 함수
+    names.forEach((item, index, array) => {
+      console.log(`${item} / ${index} / ${array}`)
+    })
+  </script>
+</body>
+
+</html>

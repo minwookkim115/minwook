@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // // 1.1 단순 호출
+    // const myFunc = function () {
+    //   return this
+    // }
+    // console.log(myFunc()) // window => 브라우저의 최상위 객체
+
+    // // 1.2 메서드 호출
+    // const myObj = {
+    //   data: 1,
+    //   myFunc: function () {
+    //     return this
+    //   }
+    // }
+    // console.log(myObj.myFunc()) // myObj
+
+    // // 2. Nested
+    // // 2.1 일반 함수
+    // const myObj2 = {
+    //   numbers: [1, 2, 3],
+    //   myFunc: function () {
+    //     this.numbers.forEach(function (number) {
+    //       console.log(this) // window
+    //     })
+    //   }
+    // }
+    // console.log(myObj2.myFunc())
+
+    // // 2.2 화살표 함수
+    // const myObj3 = {
+    //   numbers: [1, 2, 3],
+    //   myFunc: function () {
+    //     this.numbers.forEach((number) => {
+    //       console.log(this) // myObj3
+    //     })
+    //   }
+    // }
+    // console.log(myObj3.myFunc())
+
+    // 객체의 메소드에서는 화살표함수를 사용하지 마라
+    // window가 나와버림
+    const myObj4 = {
+        numbers : [1, 2, 3],
+        myFunc : () => {
+            console.log(this)
+            // 화살표 함수가 가르키는 this는 나를 호출한 상위 객체
+        }
+    }
+
+    const myObj5 = {
+        numbers : [1, 2, 3],
+        myFunc : function() {
+            console.log(this)
+        }
+    }
+
+    myObj4.myFunc()
+    myObj5.myFunc()
+
+  </script>
+</body>
+
+</html>
