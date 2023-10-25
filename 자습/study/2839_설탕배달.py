@@ -20,23 +20,29 @@ while True:
         count += 1
         break
     elif check_n == 2:
-        count = 0
+        count = 2000
         break
     elif check_n == 3:
         count += 1
         break
     elif check_n == 4:
-        count = 0
+        count = 2000
         break
 
-if count == 0:
+if count == 2000:
+    sub_count = 0
     if N % 3 == 0:
-        count = N // 3
-    elif N >= 12 and (N - 12) % 5 == 0:
-        count += (N - 12) // 5
-        count += 4
-    elif N >= 9 and (N - 9) % 5 == 0:
-        count += (N - 9) // 5
-        count += 3
+        sub_count = N // 3
+        count = min(count, sub_count)
+    if N >= 12 and (N - 12) % 5 == 0:
+        sub_count = (N - 12) // 5
+        sub_count += 4
+        count = min(count, sub_count)
+    if N >= 9 and (N - 9) % 5 == 0:
+        sub_count = (N - 9) // 5
+        sub_count += 3
+        count = min(count, sub_count)
+    if sub_count == 0:
+        count = -1
 
 print(count)
