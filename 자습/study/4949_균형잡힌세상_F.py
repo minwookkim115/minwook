@@ -1,28 +1,43 @@
 while True:
     string = input()
     stack = []
+    answer = 'yes'
 
-    if string == '.':
+    if len(string) == 1:
         break
 
-    if string == '(' or string == '[':
-        stack.append(string)
+    for i in string:
 
-    if string == ')':
-        if stack[-1] == '(':
-            stack.pop()
-        else:
-            print('no')
+        if i == '.':
             break
 
-    if string == ']':
-        if stack[-1] == '[':
-            stack.pop()
-        else:
-            print('no')
-            break
+        if i == '(' or i == '[':
+            stack.append(i)
+
+        if i == ')':
+            if stack:
+                if stack[-1] == '(':
+                    stack.pop()
+                else:
+                    answer = 'no'
+                    break
+            else:
+                answer = 'no'
+                break
+
+        if i == ']':
+            if stack:
+                if stack[-1] == '[':
+                    stack.pop()
+                else:
+                    answer = 'no'
+                    break
+            else:
+                answer = 'no'
+                break
 
     if stack:
-        print('no')
-    else:
-        print('yes')
+        answer = 'no'
+
+    print(answer)
+
