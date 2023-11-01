@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app">
+    <h1>{{ message }}</h1>
+    <button @click="mo.count++">Count is: {{ mo.count }}</button>
+  </div>
+
+  <div id="app2">
+    <h1>{{ message }}</h1>
+  </div>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script>
+    const { createApp, ref } = Vue
+
+    const app = createApp({
+      setup () {
+        const count = ref(0)
+        const message = ref("Hello vue!")
+
+        const myobj = {
+            "id": 1,
+            "name": "myname",
+            "count": 0
+        }
+
+        const mo = ref(myobj)
+
+        return {
+          message,
+          mo,
+        }
+      }
+    })
+
+    const app2 = createApp({
+      setup() {
+        const message = ref("this is app2")
+        return {
+          message,
+        }
+      }
+    })
+
+    app2.mount('#app2')
+    app.mount('#app')
+  </script>
+</body>
+
+</html>
