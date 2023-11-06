@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <h1>Todo : 오늘 할일</h1>
+    
+    <ul>
+      <li v-for="todo in todos" :key="todo.id">
+        {{ todo.text }}
+        <button @click="removeTodo(todo.id)">삭제</button>
+      </li>
+    </ul>
+    
+    <input type="text" v-model="input"><button @click="addTodo">add</button>
+    <button @click="popTodo">pop</button>
+    <hr>
+  </div>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script>
+    const { createApp, ref, computed } = Vue
+
+    const app = createApp({
+        setup() {
+            const todos = ref([])
+
+            const input = ref('')
+
+            let id = 0
+
+            const addTodo = function() {
+                todos.value.push({'id': id++, 'text' : input.value})
+                console.log(todos.value)
+            }
+
+            const popTodo = function() {
+                todos.value.pop()
+            }
+
+            const removeTodo = function(id) { // id는 삭제할 todo의 id
+                todos.value = todos.value.filter((todo) => todo.id !== id)
+            }
+
+            return {
+                todos,
+                input,
+                addTodo,
+                popTodo,
+                removeTodo,
+            }
+        }
+    })
+    app.mount('#app')
+  </script>
+</body>
+</html>
