@@ -4,7 +4,10 @@
 		<input type="text" @input="changeParentData">
 		<p>App Data : {{ appData }}</p>
 		<p>Parent Child Data : {{ parentChildData }}</p>
-		<ParentChild :app-data="appData" :parent-data="parentData" @parent-child-data-chanaged="onParentChildDataChanged"/>
+		<ParentChild
+		:app-data="appData"
+		:parent-data="parentData"
+		@parent-child-data-chanaged="onParentChildDataChanged"/>
 	</div>
 </template>
 
