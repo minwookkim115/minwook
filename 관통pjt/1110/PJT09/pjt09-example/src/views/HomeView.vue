@@ -20,7 +20,6 @@
 import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import axios from 'axios'
-import { extractIdentifiers } from '@vue/compiler-core';
 
 const router= useRouter()
 const products = ref([])
